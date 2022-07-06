@@ -11,7 +11,7 @@ This is a barebone `Xvfb` with some necessary dependency. If there is anything m
 bash install.sh
 ```
 
-The script above assume the X11 related files are located at `/usr/share/X11`. If you happen to have them under `/usr/local/share/X11`, just modify the script accordingly.
+The script above presumes the X11 related files are located at `/usr/share/X11`. If you happen to have them under `/usr/local/share/X11`, just modify the script accordingly.
 
 
 ## Run
