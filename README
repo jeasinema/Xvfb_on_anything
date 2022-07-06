@@ -1,4 +1,4 @@
-Xvfb\_patch
+Xvfb_patch
 ===
 
 This is a barebone `Xvfb` with some necessary dependency. If there is anything missing, just check with `ldd Xvfb_patch` and `ldd xkbcomp`, then download the missing libraries into this directory.
