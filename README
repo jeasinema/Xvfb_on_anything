@@ -32,5 +32,5 @@ Then you may run other programs with `DISPLAY=:1 <your program>`.
 < Xvfb_patch sed 's/\/tmp\/local/\/tmp\/darts/g' > Xvfb_patch_new
 ``` 
 
-However, you need to make sure the length of these strings remains unchanged; otherwise the binary won't be executable.
+You need to make sure the length of these strings remains unchanged; otherwise the binary won't be executable.
 
