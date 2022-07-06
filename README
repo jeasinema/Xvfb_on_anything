@@ -25,5 +25,10 @@ Then you may run other programs with `DISPLAY=:1 <your program>`.
 
 ## Trivia
 
-`install.sh` will try to make use of `/tmp/default.xkm` and `/tmp/local`. If these two paths has been occupied, you may change the strings in `Xvfb_patch` to something else, this can be done by `< Xvfb_patch sed 's/\/tmp\/local/\/tmp\/darts/g' > Xvfb_patch_new` (`/tmp/local` now becomes `/tmp/darts`). However, you need to make sure the length of these strings remains unchanged; otherwise the binary won't be executable.
+`install.sh` will try to make use of `/tmp/default.xkm` and `/tmp/local`. If these two paths has been occupied, you may change the strings in `Xvfb_patch` to something else, this can be done by 
+```bash
+# `/tmp/local` now becomes `/tmp/darts`
+< Xvfb_patch sed 's/\/tmp\/local/\/tmp\/darts/g' > Xvfb_patch_new
+``` 
+However, you need to make sure the length of these strings remains unchanged; otherwise the binary won't be executable.
 
