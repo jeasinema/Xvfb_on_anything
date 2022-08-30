@@ -34,3 +34,8 @@ Then you may run other programs with `DISPLAY=:1 <your program>`.
 
 You need to make sure the length of these strings remains unchanged; otherwise the binary won't be executable.
 
+## Further reading
+
+https://ericdraken.com/running-xvfb-on-a-shared-host-without-x/
+
+
